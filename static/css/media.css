@@ -1,0 +1,621 @@
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 992px) {
+    .wap_nav {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        z-index: 7777;
+    }
+    .wap_nav .logo {
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .wap_nav .logo img {
+        height: 64px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    body {
+        padding-top: 50px;
+    }
+    .pc {
+        display: none;
+    }
+    .wap {
+        display: block;
+    }
+    .head {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        z-index: 999;
+        text-align: center;
+    }
+    .head .logo img {
+        float: left;
+        margin-top: calc(28/992*100vw);
+        margin-left: calc(35/992*100vw);
+        height: calc(106/992*100vw);
+        position: relative;
+        z-index: 4;
+    }
+    .head .nav {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .head .nav ul {
+        white-space: nowrap;
+    }
+    .head .nav ul li {
+        display: inline-block;
+        position: relative;
+    }
+    .head .nav ul li .h2tit {}
+    .head .nav ul li .h2tit a {
+        display: block;
+        font-size: calc(27/992*100vw);
+        font-family: Garavito;
+        font-weight: 400;
+        color: #FFFFFF;
+        padding: 0px calc(30/992*100vw);
+    }
+    .connect {
+        position: absolute;
+        width: auto;
+        line-height: 2;
+        font-size: 20px;
+        font-family: Garavito;
+        font-weight: 400;
+        color: #000000;
+        right: 11px;
+        padding: 0px 19px;
+        top: 15px;
+    }
+    .section1:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .section1 {
+        position: relative;
+        background-color: #f7a31d;
+    }
+    .section1 .imgbox {
+        position: relative;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .section1 .imgbox img {
+        width: 58%;
+        display: block;
+        margin: auto;
+    }
+    .section1 .right {
+        padding-right: 0;
+        padding-left: 0;
+        position: relative;
+        z-index: 4;
+        padding-top: 0;
+    }
+    .section1 .right .tit {
+        font-size: 34px;
+        -webkit-text-stroke: 3px #000000;
+        text-stroke: 6px #000000;
+    }
+    .section1 .right .dec {
+        font-size: 20px;
+        padding-top: 4vw;
+    }
+    .section1 {
+        margin-bottom: 13vw;
+        padding: 0px 15px;
+    }
+    .section1 .right .dec p {
+        padding-bottom: 5vw;
+    }
+    .section1 .imgbox2 {
+        position: absolute;
+        top: -38px;
+        z-index: 0;
+    }
+    .section1 .imgbox2 img {
+        width: 100%;
+    }
+    .index {
+        padding-top: calc(221/992*100vw);
+    }
+    .wrap {
+        padding: 0px 15px;
+    }
+    .section2 {
+        padding-bottom: 0;
+    }
+    .section2 .wrap {
+        /* CSS properties for the .wrap element within .section2 */
+    }
+    .titlemodel {
+        font-size: 34px;
+        -webkit-text-stroke: 3px #000000;
+        text-stroke: 6px #000000;
+    }
+    .section2 .content {
+        /* CSS properties for the .content element within .section2 */
+        position: relative;
+        padding-top: 4vw;
+        left: 0
+    }
+    .section2 .titlemodel {
+        left: 15px;
+        top: 60px
+    }
+    .section2 .text {
+        /* CSS properties for the .text element within .section2 */
+        font-size: 20px;
+        width: 100%;
+        left: 0;
+        margin-top: 20px
+    }
+    .section2 .imgbox {
+        /* CSS properties for the .imgbox element within .section2 */
+        position: static;
+        top: -15%;
+        left: 270px;
+        -o-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        margin-top: 204px;
+        text-align: center
+    }
+    .section2 .imgbox img {
+        width: 61vw;
+    }
+    .section2 .line {}
+    .section2 .line img {
+        width: 100%;
+        margin-top: -30px;
+    }
+    .section3 .wrap {}
+    .section3 .titlemodel {}
+    .section3 .list {
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+    .section3 .item {
+        height: auto;
+        margin-bottom: 2vw;
+        display: block;
+    }
+    .section3 .imgbox {
+        flex: .3;
+        text-align: center;
+        padding: 3vw 0px;
+    }
+    .section3 .imgbox img {
+        height: 33vw;
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .section3 .right {
+        flex: .6;
+        padding: 0px 15px;
+        padding-bottom: 5vw;
+    }
+    .section3 .title {
+        font-size: 30px;
+        padding-bottom: 3vw;
+    }
+    .section3 .dec {
+        font-size: 21px;
+    }
+    .section3 {
+        padding-bottom: 5px;
+        /* background: url(../images/line20.png) no-repeat center bottom; */
+        background-size: 100%;
+        margin-top: 0;
+    }
+    .section4 {
+        padding-bottom: 205px;
+        /* background: url(../images/bg2.png) no-repeat center bottom; */
+        background-size: 100%;
+        padding-bottom: 260px;
+    }
+    .section4 .dec {
+        font-size: 20px;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        width: 100%;
+    }
+    .section4 .content {
+        margin-left: 0;
+    }
+    .section4 .content .imgbox {
+        position: absolute;
+        float: none;
+        width: 30%;
+        margin-top: 0;
+        margin-right: 0;
+        right: 0;
+    }
+    .section4 .content .imgbox img {
+        /* width: 54%; */
+        margin: auto;
+        display: block;
+    }
+    .section4 .imgbox1 img {
+        width: calc(1055/1920*135vw);
+    }
+    .section4 .left {
+        width: 60%;
+        float: none;
+        font-size: 20px;
+        padding: 20px;
+        height: auto;
+        zoom: 1;
+        overflow: hidden;
+        /* padding-bottom: 3px; */
+    }
+    .section4 .left p:last-child {
+        margin: 0px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .section4 .left p {
+        margin-bottom: 20px;
+        float: left;
+        width: 50%;
+    }
+    .section4 .left p b {
+        color: #003EFF;
+    }
+    .section4 .left p:nth-child(1) b {
+        color: #FFE900;
+    }
+    .section4 .content:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .section4 .content2 {
+        /* Your styles for the .section4 .content2  element */
+    }
+    .section4 .content2 .titlemodel {
+        /* Your styles for the .titlemodel element */
+        text-align: center;
+        padding-top: 9vw;
+        padding-bottom: 3vw;
+    }
+    .section4 .content2 .contdent {
+        /* Your styles for the .contdent element */
+        padding: 0px 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section4 .content2 ul {
+        /* Your styles for the ul element */
+        zoom: 1;
+        overflow: hidden;
+        padding-bottom: calc(54/992*100vw);
+    }
+    .section4 .content2 ul li {
+        /* Your styles for the li elements inside the ul */
+        font-size: 16px;
+        margin-bottom: 22px;
+        float: left;
+        width: 50%;
+    }
+    .section4 .content2 .line i {
+        background: linear-gradient(-90deg, #FACC22, #F83600);
+        border-radius: 300px;
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 50%;
+    }
+    .section4 .content2 .line {
+        /* Your styles for the .line element */
+        height: 30px;
+        background: #FFFFFF;
+        border-radius: calc(50/992*100vw);
+        /* margin-bottom:121px;*/
+        position: relative;
+    }
+    .section4 .content2 .line i img {
+        /* Your styles for the img element inside the .line element */
+        position: absolute;
+        right: 0;
+        width: 64px;
+        top: 27%;
+        right: -30px;
+        -o-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
+    .section4 .content2 .persent {
+        /* Your styles for the .persent element */
+        font-size: 27px;
+        padding-top: calc(36/992*100vw);
+        padding-bottom: calc(53/992*100vw);
+    }
+    .section4 .content2 .persent span {
+        /* Your styles for the span element inside the .persent element */
+    }
+    .section4 .content2 .inputs {
+        /* Your styles for the .inputs element */
+    }
+    .section4 .content2 .model {
+        /* Your styles for the .model element */
+        height: 48px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+    .section4 .content2 .model input {
+        /* Your styles for the input elements inside the .model */
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+    .section4 .content2 .model .tit.s1 {
+        background: url(../image/s1.png) no-repeat 7px center;
+        background-size: 20px;
+    }
+    .section4 .content2 .model .tit {
+        /* Your styles for the .tit element with class .s1 */
+        font-size: 22px;
+        line-height: 48px;
+        right: 20px;
+        padding-left: 43px;
+    }
+    .section4 .content2 .model .tit.s2 {
+        /* Your styles for the .tit element with class .s2 */
+        /* background: url(../images/s2.png) no-repeat left center; */
+        background-size: 30px;
+    }
+    .section4 .content2 .model .tit span {
+        /* Your styles for the span elements inside the .tit elements */
+    }
+    .section4 .content2 .btns {
+        /* Your styles for the .btns element */
+        zoom: 1;
+        overflow: hidden;
+    }
+    .section4 .content2 .btns button:nth-child(2n) {
+        float: right;
+        background: #FF8400;
+    }
+    .section4 .content2 .btns button {
+        /* Your styles for the button elements inside the .btns */
+        height: 48px;
+        border-radius: 15px;
+        width: calc((100% - 10px)/2);
+        font-size: 26px;
+    }
+    .section4 .content2 ul li b {
+        color: #FFD753
+    }
+    .section5 {
+        /* Your styles for the .section5 element */
+        margin-top: -59px;
+        overflow: hidden;
+    }
+    .section5 .wrap {
+        /* Your styles for the .wrap element inside .section5 */
+    }
+    .section5 .titlemodel {
+        /* Your styles for the .titlemodel element */
+        text-align: center;
+    }
+    .section5 .list {
+        /* Your styles for the .list element */
+        padding: 0px;
+    }
+    .section5 .model {
+        /* Your styles for the .model elements inside .list */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px calc(164/992*100vw);
+        position: relative;
+        padding-bottom: calc(100/992*100vw);
+        padding: 0px 8% !important;
+    }
+    .section5 .model.t1 {
+        /* Your styles for the .model element with class .t1 */
+        width: 100%;
+        height: 71vw;
+        /* background: url(../images/m1.png) no-repeat 0px 45px; */
+        background-size: 100%;
+        /* padding-bottom:100px;*/
+        padding-left: 0 !important;
+        padding-top: calc(-164/992*189vw) !important;
+    }
+    .section5 .model.t2 {
+        /* Your styles for the .model element with class .t2 */
+        width: 100%;
+        height: 82vw;
+        /* background:url(../images/m2.png) no-repeat 0 -1px; */
+        background-size: 100%;
+        float: right;
+        margin-top: 0;
+        /* padding: 0px 22% !important; */
+        padding-top: calc(164/992*84vw) !important;
+        padding-left: 0 !important;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .section5 .model.t3 {
+        /* Your styles for the .model element with class .t3 */
+        /* background:url(../images/m3.png) no-repeat 0 -107px; */
+        background-size: 100%;
+        width: 100%;
+        height: 82vw;
+        top: auto;
+        padding: 0px 0px !important;
+    }
+    .section5 .model .imgbox {
+        /* Your styles for the .imgbox element inside .model */
+        position: absolute;
+    }
+    .section5 .model .imgbox img {
+        /* Your styles for the img element inside .model .imgbox */
+    }
+    .section5 .model.t1 .imgbox {
+        right: 0;
+        top: 30px;
+    }
+    .section5 .model.t1 .imgbox img {
+        width: 55vw;
+    }
+    .section5 .model.t2 .imgbox {}
+    .section5 .model.t2 .imgbox img {}
+    .section5 .model.t3 .imgbox {
+        left: 30vw;
+        top: -37vw;
+        z-index: 1;
+        width: 100%;
+    }
+    .section5 .model.t3 .imgbox img {
+        width: 55vw;
+    }
+    .section5 .model.t1 .title {
+        padding-left: calc(164/992*55vw);
+        margin-top: -112px
+    }
+    .section5 .model.t1 .dec {
+        padding-left: calc(164/992*55vw);
+        padding-top: 0;
+    }
+    .section5 .model.t1 {
+        position: absolute;
+        left: calc(164/992*-8vw);
+        top: calc(-164/992*-18vw)
+    }
+    .section5 .model.t2 {
+        position: absolute;
+        left: calc(164/992*227vw);
+        top: calc(-164/992*-137vw)
+    }
+    .section5 .model.t3 {
+        position: absolute;
+        left: -24px;
+        top: calc(164/992*377vw)
+    }
+    .section5 .model.t2 .title {
+        padding-left: calc(164/992*112vw);
+        margin-top: -0;
+    }
+    .section5 .model.t2 .dec {
+        padding-left: calc(164/992*112vw);
+    }
+    .section5 .model.t3 .title {
+        padding-left: calc(164/992*112vw);
+        margin-top: -85px
+    }
+    .section5 .model.t3 .dec {
+        padding-left: calc(164/992*112vw);
+    }
+    .section5 .model .title {
+        /* Your styles for the .title element inside .model */
+        font-size: 30px;
+    }
+    .section5 .model .dec {
+        /* Your styles for the .dec element inside .model */
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .section5 .model .dec p {
+        /* Your styles for the p elements inside .model .dec */
+    }
+    .section5 .wrap .base {
+        background: url(../image/base.png) no-repeat center top;
+        background-size: 100%;
+        width: 100%;
+        height: 113vw;
+        position: relative;
+    }
+    .clear {
+        clear: both;
+    }
+    .section6 {
+        padding-bottom: 5vw;
+        background-size: 85%;
+    }
+    .section6 .content {
+        text-align: center;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section6 .content .title {
+        font-size: 37px;
+        -webkit-text-stroke: 3px #000000;
+        text-stroke: 5px #000000;
+    }
+    .section6 .content .title img {
+        height: 52px;
+    }
+    .section6 .content .title span {
+        vertical-align: middle;
+        margin-left: -11px;
+        position: relative;
+        z-index: 34;
+    }
+    .section6 .content .dec {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 4vw;
+        padding-bottom: 5vw;
+    }
+    .section6 .content .link {}
+    .section6 .content .link a {
+        margin: 0px 3%;
+    }
+    .section6 .content .link a img {
+        height: 37px;
+    }
+    .alertmodel1 .center {
+        padding-bottom: 20px;
+        max-width: 67%;
+    }
+    .alertmodel1 img {
+        height: 40px;
+        margin-bottom: 3%;
+    }
+    .alertmodel1 .tit {
+        font-size: 30px;
+    }
+    .alertmodel1 .return {
+        width: 70%;
+        height: 42px;
+        font-size: 20px;
+    }
+}
